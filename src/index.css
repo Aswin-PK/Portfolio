@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    font-family: Montserrat;
+    cursor: none;
+  }
+  nav li{
+    cursor: pointer;
+  }
+  nav li:hover{
+    color: rgb(219, 219, 219);
+  }
+  /* .active {
+    /* text-decoration: underline 0.3rem; 
+    border-bottom: 0.3rem solid;
+    padding-bottom: 0.3rem;
+    transition: border ease-in-out;
+  }   */
+  .active {
+    position: relative;
+    padding-bottom: 0.4rem;
+  }
+  
+  .active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0.3rem; /* Initial height of the border */
+    background-color: rgb(170, 170, 170); /* Border color */
+    transition: width 0.5s ease-in-out; /* Transition the width property */
+  }
+  
+  .active.active::after {
+    width: 100%; /* Expand the border to 100% when active */
+  }
+}
