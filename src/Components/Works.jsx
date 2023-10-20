@@ -13,7 +13,7 @@ function Works() {
                   <img src={project} alt="" className='group-hover:scale-105 transition delay-100' />
                   <div className='absolute top-0 w-full h-full flex flex-col gap-2 items-center justify-center text-justify p-3 2xl:p-6 bg-[#292929d0] text-slate-300'>
                     <h3 className='text-[0.9rem] lg:text-xl 2xl:text-2xl underline'>Airbnb clone</h3>
-                    <p className='text-[0.7rem] lg:text-[1rem] 2xl:text-[1rem]'>Build a clone of famous room booking application - AirBnb. Liked the user interface of this web application which inspired to build a clone of it.</p>
+                    <p className='text-[0.7rem] lg:text-[1rem] 2xl:text-[1rem]'>Build a clone of website of the famous online marketplace for short and long-term homestays and experiences - AirBnb. Liked the user interface of this web application which inspired to build a clone of it.</p>
                     <p className='text-[0.6rem] lg:text-[0.9rem] 2xl:text-[1rem] text-blue-200'>Languages: React.js, Html, Tailwind CSS, Javascript</p>
                   </div>
                 </div>
@@ -28,7 +28,7 @@ function Works() {
                 <div className='group relative w-full h-auto 2xl:w-[30rem] overflow-hidden cursor-pointer'>
                   <img src={project} alt="" className='group-hover:scale-105 transition delay-100' />
                   <div className='absolute top-0 w-full h-full flex flex-col gap-2 items-center justify-center text-justify p-3 2xl:p-6 bg-[#292929d0] text-slate-300'>
-                    <h3 className='text-[0.9rem] lg:text-xl 2xl:text-2xl underline'>Blood Bond</h3>
+                    <h3 className='text-[0.9rem] lg:text-xl 2xl:text-2xl underline'>Blood-Bond</h3>
                     <p className='text-[0.7rem] lg:text-[1rem] 2xl:text-[1rem]'>A web application for the management of blood bank inventory and the details of users about the collection of blood through donation camps.</p>
                     <p className='text-[0.6rem] lg:text-[0.9rem] 2xl:text-[1rem] text-blue-200'>Languages: Python-Django, Html, CSS, Javascript, Jquery</p>
                   </div>

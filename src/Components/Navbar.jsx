@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import logo from '../assets/images/logo.png'
 
 function Navbar() {
 
@@ -46,10 +47,10 @@ function Navbar() {
 
           {/* logo */}
           <Link to="home" smooth={true} duration={500}>
-            <span className="cursor-pointer">
-              {/* <img src="" alt="" /> */}
-              <p className='text-xl md:text-3xl 2xl:text-4xl text-blue-300 drop-shadow-md'>APK</p>
-            </span>
+            <div className="cursor-pointer w-[4.4rem] md:w-[6rem] lg:w-[7rem]">
+              <img src={logo} alt="" className='w-full h-full'/>
+              {/* <p className='text-xl md:text-3xl 2xl:text-4xl text-blue-300 drop-shadow-md'>APK</p> */}
+            </div>
           </Link>
 
 
